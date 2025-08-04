@@ -1,0 +1,101 @@
+/* src/pages/Products.css */
+.search-bar {
+  display: block;
+  width: 80%;
+  max-width: 400px;
+  margin: 1rem auto 2rem auto;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 2px solid #00ffea;
+  border-radius: 10px;
+  background-color: #111;
+  color: white;
+}
+
+.no-results {
+  text-align: center;
+  color: red;
+  font-size: 18px;
+  margin-top: 2rem;
+}
+
+.products-container {
+  background-color: #0b0b0b;
+  color: #f0f0f0;
+  min-height: 100vh;
+  padding: 3rem 2rem;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.products-title {
+  text-align: center;
+  font-size: 3rem;
+  color: #00ffe0;
+  margin-bottom: 3rem;
+  text-shadow: 0 0 15px #00ffe0;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.product-card {
+  background: #1a1a1a;
+  border: 2px solid #00ccff;
+  border-radius: 15px;
+  width: 300px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 0 20px #00ccff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 35px #00eaff;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.product-card h2 {
+  color: #00ffe0;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.desc {
+  font-size: 0.95rem;
+  color: #ccc;
+  margin-bottom: 0.5rem;
+}
+
+.price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #00ff99;
+  margin-bottom: 1rem;
+}
+
+.buy-btn {
+  padding: 0.7rem 1.5rem;
+  border: none;
+  background: #00ffe0;
+  color: #000;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 0 10px #00ffe0;
+}
+
+.buy-btn:hover {
+  background: #00ccff;
+  box-shadow: 0 0 20px #00ccff;
+}

@@ -1,0 +1,46 @@
+/* src/pages/RepairServices.css */
+.service-container {
+  background: linear-gradient(to right, #111, #222);
+  color: #eee;
+  padding: 2rem;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+}
+
+.service-title {
+  font-size: 2.5rem;
+  color: #00ffff;
+}
+
+.service-img {
+  width: 60%;
+  border-radius: 15px;
+  margin: 2rem 0;
+  box-shadow: 0 0 25px #00ffff;
+}
+
+.service-list {
+  list-style: none;
+  padding: 0;
+  line-height: 2rem;
+  max-width: 500px;
+  margin: auto;
+  text-align: left;
+}
+
+.service-price {
+  margin-top: 2rem;
+}
+
+.book-btn {
+  background-color: #00ffff;
+  color: #111;
+  padding: 0.8rem 2rem;
+  border: none;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.book-btn:hover {
+  background-color: #33ffff;
+}

@@ -1,0 +1,121 @@
+/* src/pages/Home.css */
+
+/* Home.css */
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  padding: .5rem;
+  max-width: 600px;
+  background-color: #111;
+  border: 2px solid #0ff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #0ff;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 12px 16px;
+  font-size: 1rem;
+  background: #000;
+  color: #0ff;
+  border: none;
+  outline: none;
+}
+
+.search-bar button {
+  padding: 12px 20px;
+  font-weight: bold;
+  background-color: #0ff;
+  color: #000;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.search-bar button:hover {
+  background-color: #0cc;
+}
+
+.home-container {
+  background-color: #0f0f0f;
+  color: #f0f0f0;
+  min-height: 100vh;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.hero-section {
+  text-align: center;
+  padding: 5rem 2rem;
+  background: radial-gradient(circle at center, #1a1a1a, #000000);
+}
+
+.title {
+  margin-left: 5%;
+  font-size: 4rem;
+  letter-spacing: 3px;
+  color: #00ffea;
+  text-shadow: 0 0 10px #00ffe0;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: #ccc;
+}
+
+.cta-button {
+  margin-top: 2rem;
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: #00ffe0;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 0 0 15px #00ffe0;
+  transition: 0.3s ease;
+}
+
+.cta-button:hover {
+  background: #00ccff;
+  box-shadow: 0 0 25px #00ccff;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 4rem 2rem;
+  background: #121212;
+}
+
+.feature-card {
+  background: #1e1e1e;
+  border: 1px solid #00ffe0;
+  border-radius: 15px;
+  padding: 2rem;
+  margin: 1rem;
+  width: 300px;
+  box-shadow: 0 0 20px #00ffe0;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px #00ccff;
+}
+
+.feature-card h2 {
+  color: #00ffea;
+  margin-bottom: 1rem;
+}
+
+.feature-card p {
+  color: #ccc;
+}

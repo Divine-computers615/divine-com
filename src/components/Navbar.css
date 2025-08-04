@@ -1,0 +1,50 @@
+/* src/components/Navbar.css */
+
+.navbar {
+  background-color: #111;
+  padding: 1rem 2rem;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  font-family: 'Orbitron', sans-serif;
+  box-shadow: 0 0 15px #00ccff;
+}
+
+.hamburger {
+  font-size: 30px;
+  cursor: pointer;
+  padding: 0.1px;
+  color: #00fff7;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+  justify-content: start;
+}
+
+.logo {
+  color: #00ffe0;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  grid-column: 2; /* force logo to center column */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: flex-end;
+}
+
+.nav-links li a {
+  color: #00ccff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #00ffe0;
+  text-shadow: 0 0 5px #00ffe0;
+}

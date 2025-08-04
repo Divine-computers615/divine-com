@@ -1,0 +1,77 @@
+/* src/pages/Login.css */
+
+.login-container {
+  min-height: 100vh;
+  background: #0d0d0d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.login-form {
+  background: #1a1a1a;
+  border: 2px solid #00ccff;
+  border-radius: 20px;
+  padding: 2.5rem;
+  width: 350px;
+  box-shadow: 0 0 25px #00ffe0;
+  text-align: center;
+}
+
+.login-form h2 {
+  color: #00ffe0;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 10px #00ffe0;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.7rem 0;
+  border: none;
+  border-radius: 10px;
+  background: #0f0f0f;
+  color: #fff;
+  outline: 2px solid #00ccff;
+  transition: 0.3s ease;
+}
+
+.login-form input:focus {
+  outline: 2px solid #00ffe0;
+  box-shadow: 0 0 10px #00ffe0;
+}
+
+.login-form button {
+  padding: 0.8rem 2rem;
+  margin-top: 1rem;
+  background: #00ffe0;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 0 15px #00ffe0;
+}
+
+.login-form button:hover {
+  background: #00ccff;
+  box-shadow: 0 0 20px #00ccff;
+}
+
+.extra-text {
+  margin-top: 1.5rem;
+  color: #ccc;
+  font-size: 0.9rem;
+}
+
+.extra-text a {
+  color: #00ccff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.extra-text a:hover {
+  text-decoration: underline;
+}
